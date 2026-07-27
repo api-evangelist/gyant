@@ -1,7 +1,25 @@
 aid: gyant
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gyant.png
 name: Gyant
-description: Gyant is a company surfaced as a portfolio company of wing-venture-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Gyant was a San Francisco-based digital health company that built an AI-powered
+  conversational virtual assistant for health systems, guiding patients through symptom
+  checking, care navigation, and triage across web and messaging channels. In 2022 Gyant
+  was acquired by Fabric (fabrichealth.com), and gyant.com now redirects to Fabric's
+  healthcare care-access platform, which combines conversational AI with physician-built
+  clinical protocols for virtual care, patient engagement, and clinical automation. Gyant
+  does not publish a public API, developer portal, or SDKs; this profile captures the
+  company's identity, published legal/compliance surface, and domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/gyant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,20 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-successor: fabric
+x-successor-url: https://www.fabrichealth.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Virtual Assistant
+- Conversational AI
+- Patient Engagement
+- Digital Health
+- Care Navigation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gyant-domain-security.yml
 - type: Website
   url: https://gyant.com/
+- type: Blog
+  url: https://www.fabrichealth.com/blog
+- type: PrivacyPolicy
+  url: https://www.fabrichealth.com/privacy-policy
+- type: TermsOfService
+  url: https://www.fabrichealth.com/terms-conditions
+- type: Compliance
+  url: https://www.fabrichealth.com/security-compliance
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

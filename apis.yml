@@ -32,6 +32,9 @@ description: Gyant was a San Francisco-based digital health company that built a
   does not publish a public API, developer portal, or SDKs; this profile captures the
   company's identity, published legal/compliance surface, and domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/gyant/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Gyant does not publish a public API, developer portal, or SDKs; this profile captures the company's identity, published legal/compliance surface, and domain security posture."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:

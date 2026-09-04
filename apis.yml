@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://gyant.com/', status: 301, note: 'declared website redirects to https://www.fabrichealth.com/ — a different registrable domain (gyant.com -> fabrichealth.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gyant.png
 name: Gyant
 description: Gyant was a San Francisco-based digital health company that built an AI-powered
